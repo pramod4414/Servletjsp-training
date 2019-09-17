@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mobile Shop</title>
+</head>
+<body>
+<div background-color=" #e6ffff">
+<form action="AddServlet" method="post">
+<table>
+<tr><td>
+Product Name : <input type="text" name="productname"/>
+</td></tr>
+<tr><td>
+Manufacturer Name: <select name="manufacturername" style="width: 150px">
+<option value="samsung">Samsung</option>
+<option value="Oppo" >Oppo</option>
+<option value="Vivo" >Vivo</option>
+<option value="IPhone" >IPhone</option>
+<option value="MI" >MI</option>
+<option value="Others" >Others</option>
+</select>
+</td></tr>
+<tr><td>
+Price: <input type="number" name="price"/></td>
+<tr><td><input type="submit" value="Add Products"></td></tr>
+</table>
+</form>
+<br>
+<a href="ViewProducts.jsp">View Products</a>
+</div>
+</body>
+</html>
